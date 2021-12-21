@@ -18,6 +18,9 @@ for t in range(test):
         if tmp1 >= tmp2:
             b = str(tmp1 - tmp2) + b 
         else:
+            if result == '':
+                state = False
+                break
             tmp1 = (int(result[-1]))*10 + int(tmp1)
             result = result[:-1]
             if tmp1 > 18:

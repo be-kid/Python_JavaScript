@@ -22,3 +22,25 @@ const rotateMatrix = function (matrix, rotate) {
 };
 
 // rotate를 4로 나눈 나머지
+
+// 페어분 코드 도와줌
+// const rotateMatrix = function (matrix, k) {
+//   // TODO: 여기에 코드를 작성합니다.
+//   k = k !== undefined ? k % 4 : 1;
+//   if (matrix.length === 0 || k === 0) {
+//     return matrix;
+//   }
+//   let m = matrix.length;
+//   let n = matrix[0].length;
+//   const rmatrix = [];
+//   for (let row = 0; row < n; row++) {
+//     rmatrix.push(Array(m).fill(0));
+//   }
+//   for (let i = 0; i < m; i++) {
+//     for (let j = 0; j < n; j++) {
+//       rmatrix[j][m - 1 - i] = matrix[i][j];
+//     }
+//   }
+
+//   return rotateMatrix(rmatrix, k - 1);
+// };

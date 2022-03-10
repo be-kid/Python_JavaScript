@@ -5,5 +5,3 @@
 https://www.acmicpc.net/user/daramzy
 
 https://solved.ac/profile/daramzy
-
-https://leetcode.com/be-kid/
